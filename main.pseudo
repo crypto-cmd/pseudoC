@@ -1,0 +1,10 @@
+fn add(a::real, b::real) :: real => a + b
+program
+  declare value::real;
+  declare t <- 9.01;
+
+  value <- 8.56;
+
+  declare sum <- call add(value,t)
+  call print(sum)
+endprogram

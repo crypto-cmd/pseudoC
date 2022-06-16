@@ -1,0 +1,19 @@
+{
+  "type": "commonjs",
+  "dependencies": {
+    "snowpack": "^3.8.8"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "typescript": "^4.7.3"
+  },
+  "name": "pseudoc",
+  "version": "1.0.0",
+  "description": "Statically typed transpiled language for beginners. It transpiles to C. It has pseudocode-like syntax.",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node ./dist/main.js"
+  },
+  "main": "dist/main.js",
+  "license": "MIT"
+}
