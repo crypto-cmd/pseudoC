@@ -9,7 +9,7 @@ PseudoC looks extremely similar to pseudocode therefore it is very readable and 
 
 ### How do I use PseudoC?
 1. Clone the repo.
-2. Create a new file called `exe\main.pseudoc` and write your code in it.
+2. Create a new file called `exe\main.pseudo` and write your code in it.
 3. Run `node main` in the repo.
 
 
